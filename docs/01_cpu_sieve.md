@@ -1,14 +1,14 @@
-# Prime Calculation based on CPU (One thread)
+# Prime Calculation based on CPU (Single-threaded)
 
-## 📝 Summary
-- **Algorithm**: The sieve of eratosthenes.
+## Summary
+- **Algorithm**: Sieve of Eratosthenes.
 - **Input Range**: 1 ~ 10^8
-- **Performance Estimation**: `std::chrono` usage.
+- **Performance Estimation**: Used `std::chrono` to measure execution time.
 
-## ⏳ Result
-- **Total Primes Found**: 5761455
-- **Avg Execution Time**: 6.0332102979 seconds
-- **Standard Deviation**: 0.04629895260589305 seconds
+## Result
+- **Total Primes Found**: 5,761,455
+- **Avg Execution Time (10 runs)**: 6.033s
+- **Standard Deviation**: 0.046s
 
-## 📌 Discussion
+## Discussion
 - I'm going to use the multithreading based on std::thread or OpenMP to reduce the time.
